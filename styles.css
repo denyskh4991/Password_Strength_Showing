@@ -30,6 +30,10 @@
     background: transparent;
 }
 
+::placeholder {
+    font-size: 15px;
+}
+
 button {
     background: transparent;
     border: 0;
@@ -44,4 +48,11 @@ button {
 
 button img {
     width: 35px;
+}
+
+#message {
+    position: absolute;
+    bottom: -30px;
+    color: #fff;
+    font-size: 15px;
 }
